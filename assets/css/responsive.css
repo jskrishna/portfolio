@@ -1,0 +1,211 @@
+@media only screen and (min-width:768px) {
+    .navlinks li:first-child{display: none;}
+}
+
+@media only screen and (max-width:1599px) {
+    .imgslider {width: 820px;}
+	.refrigeration .imgslider {width: 490px;}
+	.refrigeration .imgslider img {margin-left: 165px;}
+	.refrigeration .bx-controls {right: 60px;}
+	.refrigeration .hash {left: 495px;}
+	.contactUsInner {padding: 60px 272px 0;}
+}
+
+@media only screen and (max-width:1499px) {
+    .slider:before, .whereleft, header:before{width: 600px;}
+    .map-responsive iframe, .whereright{width: calc(100% - 600px);width: -webkit-calc(100% - 600px);}
+    .imgslider {width: 650px;}
+    .proindel {max-width: 270px;} 
+    .aboutin h2 {margin-left: 395px;}
+    .aboutleft {width: 580px;text-align: right;}
+	.refrigeration .hash {bottom: 0;}
+	.contactUsInner h2 {
+    max-width: 480px;
+}
+.contactUsInner {
+    padding: 60px 294px 0;
+}
+.boxGrid {
+    padding: 100px 30px 30px;
+    max-width: 50%;
+}
+.showLess {
+    left: 30px;
+}
+}
+
+@media only screen and (max-width:1299px) {
+
+    .proindel {max-width: 100%;}
+    .proimg img {width: 140px;}
+    .slider:before, .whereleft,header:before {width: 520px;}
+    .map-responsive iframe, .whereright{width: calc(100% - 520px);width: -webkit-calc(100% - 520px);}
+    .imgslider {width: 650px;}
+    .whereleft h2, .whereleft a {right: -70px;}
+    .aboutin h2 {margin-left: 315px;}
+    .aboutleft {width: 530px;}
+    .copyright p {margin-left: 0;}
+	.refrigeration .imgslider {width: 410px;}
+	.refrigeration .hash {left: 416px;}
+	.refrigeration .bx-controls {right: 190px;}
+	.contactUsInner {padding: 60px 214px 0;}
+}
+
+@media only screen and (max-width:1199px) {
+    .proimg img {width: 100px;}
+    .slider:before, .whereleft,header:before {width: 320px;}
+    .map-responsive iframe, .whereright{width: calc(100% - 320px);width: -webkit-calc(100% - 320px);}
+    .imgslider {width: 400px;}
+    .imgslider img {width: 200px !important;height: 360px;object-fit: contain;-o-object-fit: contain;}
+    .proindel li {font-size: 18px;line-height: 18px;}
+    .textslider {width: 370px;}
+    .textslider a {padding: 15px 26px;}
+    .prorow > div {min-height: inherit;}
+    .proindel {margin: 10px auto;}
+    .boxGrid{margin: 0 !important;}
+    .whereleft h2, .whereleft a {right: 0;}
+    .aboutin h2 {margin-left: 195px;}
+    .textslider {width: 580px;}
+    .aboutleft {width: 300px;}
+    .aboutleft img {width: 280px !important;}
+    .footright > div:first-child {width: 33.33%;}
+	.refrigeration .imgslider img {height: auto;margin-left: 222px;}
+	.refrigeration .imgslider {width: 445px;}
+	.refrigeration .hash {left: 450px;bottom: 10px;}
+	.refrigeration .textslider {margin-bottom: 0;margin-top: 15px;}
+	.prodItems .proindel {max-width: 400px;    margin: 0;padding: 55px 0 0;}
+	.prodItems .prorow > div {padding: 15px 25px;}
+	.boxItemInner p {margin: 15px 0 15px;}
+	.prodItems .proindel {padding: 50px 0 0;}
+	.contactUsInner h2 {max-width: 280px;}
+	.contactUsInner {padding: 60px 94px 0;}
+	.leftContact {width: 35%;}
+	.rightContact {width: 65%;}
+}
+
+@media only screen and (max-width:991px) {
+    .footbox {width: 100%;float: none;text-align: center;}
+    .footdes, .footlink {width: 100%;} 
+    .footsocial > div {display: block;}
+    .footlink .socialbar {text-align: center;padding-bottom: 20px;padding-top: 20px; margin-right: 0;}
+    .footright {float: none;width: 100%;text-align: center;}
+    .footlinks ul:before {left: 0;margin: 0 auto;}
+    .textslider {width: 410px;}
+    .sliderall{align-items: flex-start;} 
+	.refrigeration .imgslider {width: 317px;}  
+	.refrigeration .imgslider img {margin-left: 110px;}
+	.refrigeration .hash {left: 320px;}
+	.prodItems .proindel {padding: 10px 0 0;}
+	.discoverMore img {margin-left: 10px;max-width: 20px;}
+	.discoverMore {font-size: 12px;letter-spacing: 1px;line-height: normal;}
+	.prodItems .prorow > div {padding: 15px 15px;}
+	.leftContact p {font-size: 16px;}
+	.rightContact {padding-left: 65px;}
+    .pdRitNone {padding: 0px;}
+    .pdleftNone {padding: 0px;}
+	.newProductItem .row {margin-right: 0;}
+    .pullSmLeft{float: left;}
+    .pullSm{float: right !important;}
+    .navlinks li {padding-left: 0; padding-right: 0;}
+    .navlinks > li > a{font-size: 14px;}
+}
+
+@media only screen and (max-width:767px) {
+    .whereleft h2, .whereleft a {max-width: 100%;}
+    footer {padding-top: 20px;}.footright > div {float: none;width: 100%;}
+    header{padding: 5px 0 !important;} 
+    .open .overlay {opacity: 1;visibility: visible;}
+    .overlay {position: fixed;left: 0;right: 0;top: 0;bottom: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.9);opacity: 0;visibility: hidden;z-index: 99;}
+    .one, .two, .three {background-color: #fff;height: 2px;margin: 4px 0;-webkit-transition: all 0.4s ease 0s;transition: all 0.4s ease 0s;display: table;border-radius: 5px;width: 25px;}
+    .mobile-toggles {position: absolute;right: 15px;top: 17px;z-index: 99999;transition: 300ms all;-webkit-transition: 300ms all;}
+    .open .mobile-toggles {right: 15px;top: 15px;right: inherit;left: 200px;}
+    .open .one {-webkit-transform: rotate(-45deg) translate(-2px, 6px);transform: rotate(-45deg) translate(-2px, 6px);width: 30px;}
+    .open .two {opacity: 0;}
+    .open .three {-webkit-transform: rotate(45deg) translate(-2px, -7px);transform: rotate(45deg) translate(-2px, -7px);width: 30px;background: #fff;}
+    .map-responsive iframe, .whereright {width: 100%;height: 200px;position: relative;}
+    .prorow > div {width: 100%;}
+    .prorow, .rowreverse .prorow  {width: 100%;flex-direction: column-reverse;}
+    .prodel:after, .rowreverse .prodel:after {border-bottom: 15px solid transparent !important;border-right: 15px solid transparent !important;border-left: 15px solid transparent;border-top: 15px solid #fff;margin: 0 auto;text-align: center;left: 0 !important;width: 15px;top: 0;}
+    .rowreverse .prodel:after{right: 0;}
+    .proindel {margin: 0;}
+    .container-fluid {padding-left: 15px;padding-right: 15px;}
+    .slider:before, .whereleft, header:before {width: 150px;}
+    .imgslider {width: 100%;}
+    .sliderall {display: block;height: auto;}
+    .imgslider img {margin: 0 auto;}
+    .imgslider img {width: 170px !important;height: 300px;padding: 35px 0;}
+    .slider {min-height: auto;}
+    .textslider {width: 100%;text-align: center;padding: 0 15px;}
+    .textslider a {position: static;display: block;max-width: 250px;margin: 20px auto;}
+    .socialbar {padding-bottom: 0;padding-top: 11px;margin-right: 35px;}
+    .navlinks {position: fixed;top: 0;left: 0;height: 100%;background: #7297bb;width: 200px;z-index: 999;transition: 300ms all;-webkit- transition: 300ms all;transform:  
+	translateX(-200px);-webkit-transform: translateX(-200px);}
+    .open .navlinks{transform: translateX(0);-webkit-transform: translateX(0);}
+    .navlinks li {width: 100%;padding: 0;}
+    .navlinks > li > a {display: block;width: 100%;padding: 10px 20px;font-family: 'roboto_condensedlight';}
+    .logo img {max-width: 90px;}
+    .logo {margin: 3px;}
+    .slider {margin-top: 57px;}    
+    .homeslider .owl-dots {left: 30px;}   
+    .homeslider .owl-dot.active:before {left: -9px;top: -40px;font-size: 32.4px;}
+    .homeslider .owl-dot.active:after {width: 3px;height: 40px;top: -90px;left: 9px;}
+    .homeslider .owl-dot {height: 7px;width: 7px;margin-top: 23px;margin-left: 7px;}
+    .footcont {padding: 0 15px;}
+    .footlinks ul:before {top: -6px;}
+    .footlinks ul {margin-top: 0;}   
+    .proinner{display: block;}   
+    .proindel h3 {text-align: center;}
+    .proindel li {text-align: center;}
+    .wherein {display: block;}
+    .wherein > div {min-height: inherit;display: block;width: 100%;text-align: center;}  
+    .whereleft a {margin-top: 20px;}   
+    .navlinks li:first-child{display: none; text-align: center; background: #6a7989;}
+    .open .navlinks li:first-child{display: block;}
+    .open .navlinks li img {max-width: 100px;}
+    .whereleft {padding: 20px 15px;}   
+    .whereleft span {display: inline-block;}
+    .aboutin h2 {margin-left: 0;text-align: center;padding-bottom: 0;padding-top: 25px;}
+    .aboutleft {width: 100%;text-align: center;}
+    .aboutleft img {width: 200px !important;height: inherit;}
+    .aboutright p {font-size: 14px;margin-bottom: 10px;}   
+    .aboutinfo {padding: 15px;max-width: 100%;margin-left: 0;margin-top: 15px;margin-bottom: 50px;padding-bottom: 0;}   
+    .aboutinfo ul li {font-size: 16px;margin-bottom: 15px;}
+    .footright > div:first-child {width: 100%;}
+	.refrigeration .imgslider {width: 100%; text-align:center;}
+  	.refrigeration .sliderall {height: 100vh;padding-top: 0;}  
+	.refrigeration .hash {left: 0;right: 0;margin: auto;width: 100%;text-align: center;bottom: 175px;}
+	.refrigeration .imgslider img {margin-left: auto;}
+	.refrigeration.slider {height: calc(100vh - 57.6px);position: relative;}
+	.refrigeration .bx-controls {right: 0;left: 0;max-width: 40px;margin: auto;bottom: 97px;}
+	.prodItems .prorow > div {padding: 35px 35px;}
+	.boxItemInner p {text-align: center;font-size: 18px;}
+	.discoverMore {text-align: center;display: inline-block;}
+	.discoverMore img {margin-bottom: 5px;}
+	.contactUsInner h2 {max-width: 160px; margin:auto; }
+	.contactInOne > div {float: none;text-align: center;width: 100%;padding: 25px 0;}
+	.contactUsInner {padding: 25px;text-align: center;	}
+	.leftContact p {font-size: 16px;margin: 0;}
+	form.conForm {max-width: 420px;margin: auto;}
+	.detail > div {    float: left;    width: 100%;    text-align: center;}	
+    .showLess {    left: 0;    right: 0;    margin: auto;}
+    .boxGrid {    min-height: 330px;}
+    .whereToo .container-fluid {    padding: 0;}
+    .whereToo .map-responsive iframe {min-height: 100%; }
+    .whereLeftOne {    width: 100%;    float: none;    padding: 20px 0px 0;}
+    .whereToo .whereright {   width: 100%;}
+    .flexUse {display: inherit; }
+    .nearYou {margin-bottom: 25px; padding-left: 30px; display: inline-block; width: 100%; margin-top: 30px; }
+  }  
+    
+  @media only screen and (max-width:375px) {  
+    .locationList {float: left;width: 100%;}
+    .whereLeftOne > div {width: 100%;float: none;}
+    .bootstrap-select{margin-top: 30px;}
+    .nearYou {margin-bottom: 0px;}
+}
+    
+    
+    
+    
+
+
