@@ -1,82 +1,116 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>QueenCheap</title><base href="https://jskrishna.github.io/portfolio/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="../assets/css/bootstrap.min.css" rel="stylesheet"><link href="../assets/css/owl.carousel.min.css" rel="stylesheet"><link href="../assets/css/animate.css" rel="stylesheet"><link href="../assets/css/custom.css" rel="stylesheet"><style>/* Import internal fonts */
+<!doctype html>
+<html lang="en">
 
-    @font-face {
-      font-family: 'roboto_condensedbold';
-      src: url('../assets/fonts/robotocondensed-bold-webfont.woff2') format('woff2'), url('../assets/fonts/robotocondensed-bold-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-    }
+<head>
+    <meta charset="utf-8">
+    <title>QueenCheap</title>
+    <base href="https://jskrishna.github.io/portfolio/">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <style>
+        /* Import internal fonts */
 
-    @font-face {
-      font-family: 'roboto_condensedlight';
-      src: url('../assets/fonts/robotocondensed-light-webfont.woff2') format('woff2'), url('../assets/fonts/robotocondensed-light-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-    }
+        @font-face {
+            font-family: 'roboto_condensedbold';
+            src: url('assets/fonts/robotocondensed-bold-webfont.woff2') format('woff2'), url('assets/fonts/robotocondensed-bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
 
-    @font-face {
-      font-family: 'proxima_nova_rgbold';
-      src: url('../assets/fonts/proxima_nova_bold-webfont.woff2') format('woff2'), url('../assets/fonts/proxima_nova_bold-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-    }</style><link href="styles.07c98fb00d033418afac.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.58623ecb9fdd7fbd2f9e.bundle.js"></script><script type="text/javascript" src="polyfills.f20484b2fa4642e0dca8.bundle.js"></script><script type="text/javascript" src="main.f6d7ff6985a9c94e9d4a.bundle.js"></script></body><script src="../assets/js/jquery.min.js"></script><script src="../assets/js/bootstrap.min.js"></script><script src="../assets/js/owl.carousel.min.js"></script><script src="../assets/js/wow.min.js"></script><script>new WOW().init();
-  $(document).ready(function () {
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
-      loop: true,
-      margin: 0,
-      navSpeed: 1000,
-      nav: true,
-      items: 1,
-      autoplay: true,
-      autoplayTimeout: 4000,
-    });
+        @font-face {
+            font-family: 'roboto_condensedlight';
+            src: url('assets/fonts/robotocondensed-light-webfont.woff2') format('woff2'), url('assets/fonts/robotocondensed-light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
 
-    // add animate.css class(es) to the elements to be animated
-    function setAnimation(_elem, _InOut) {
-      // Store all animationend event name in a string.
-      // cf animate.css documentation
-      var animationEndEvent = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        @font-face {
+            font-family: 'proxima_nova_rgbold';
+            src: url('assets/fonts/proxima_nova_bold-webfont.woff2') format('woff2'), url('assets/fonts/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
 
-      _elem.each(function () {
-        var $elem = $(this);
-        var $animationType = 'animated ' + $elem.data('animation-' + _InOut);
+    </style>
+    <link href="styles.07c98fb00d033418afac.bundle.css" rel="stylesheet" />
+</head>
 
-        $elem.addClass($animationType).one(animationEndEvent, function () {
-          $elem.removeClass($animationType); // remove animate.css Class at the end of the animations
+<body>
+    <app-root></app-root>
+    <script type="text/javascript" src="inline.58623ecb9fdd7fbd2f9e.bundle.js"></script>
+    <script type="text/javascript" src="polyfills.f20484b2fa4642e0dca8.bundle.js"></script>
+    <script type="text/javascript" src="main.f6d7ff6985a9c94e9d4a.bundle.js"></script>
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+    $(document).ready(function() {
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            loop: true,
+            margin: 0,
+            navSpeed: 1000,
+            nav: true,
+            items: 1,
+            autoplay: true,
+            autoplayTimeout: 4000,
         });
-      });
-    }
 
-    // Fired before current slide change
-    owl.on('change.owl.carousel', function (event) {
-      var $currentItem = $('.owl-item', owl).eq(event.item.index);
-      var $elemsToanim = $currentItem.find("[data-animation-out]");
-      setAnimation($elemsToanim, 'out');
+        // add animate.css class(es) to the elements to be animated
+        function setAnimation(_elem, _InOut) {
+            // Store all animationend event name in a string.
+            // cf animate.css documentation
+            var animationEndEvent = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+            _elem.each(function() {
+                var $elem = $(this);
+                var $animationType = 'animated ' + $elem.data('animation-' + _InOut);
+
+                $elem.addClass($animationType).one(animationEndEvent, function() {
+                    $elem.removeClass($animationType); // remove animate.css Class at the end of the animations
+                });
+            });
+        }
+
+        // Fired before current slide change
+        owl.on('change.owl.carousel', function(event) {
+            var $currentItem = $('.owl-item', owl).eq(event.item.index);
+            var $elemsToanim = $currentItem.find("[data-animation-out]");
+            setAnimation($elemsToanim, 'out');
+        });
+
+        // Fired after current slide has been changed
+        owl.on('changed.owl.carousel', function(event) {
+
+            var $currentItem = $('.owl-item', owl).eq(event.item.index);
+            var $elemsToanim = $currentItem.find("[data-animation-in]");
+            setAnimation($elemsToanim, 'in');
+        })
+
     });
 
-    // Fired after current slide has been changed
-    owl.on('changed.owl.carousel', function (event) {
+    $(window).scroll(function() {
+        if ($(window).scrollTop() >= 200) {
+            $('header').addClass('fix');
+        } else {
+            $('header').removeClass('fix');
+        }
+    });
 
-      var $currentItem = $('.owl-item', owl).eq(event.item.index);
-      var $elemsToanim = $currentItem.find("[data-animation-in]");
-      setAnimation($elemsToanim, 'in');
-    })
+    $('.mobile-toggles').click(function() {
+        $('body').toggleClass('open');
+    });
+    $('.overlay').click(function() {
+        $('body').removeClass('open');
+    });
 
-  });
+</script>
 
-  $(window).scroll(function () {
-    if ($(window).scrollTop() >= 200) {
-      $('header').addClass('fix');
-    }
-    else {
-      $('header').removeClass('fix');
-    }
-  });
-
-  $('.mobile-toggles').click(function () {
-    $('body').toggleClass('open');
-  });
-  $('.overlay').click(function () {
-    $('body').removeClass('open');
-  });</script></html>
+</html>
